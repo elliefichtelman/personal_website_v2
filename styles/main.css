@@ -38,3 +38,14 @@ li {
 .nav-links li {
   margin-right: 1rem;
 }
+
+/* HOME STYLES */
+.intro {
+  padding: 0 40%;
+  text-align: center;
+}
+.testimonials h1 {
+  text-align: center;
+}
+
+/* SEE MY WORK STYLES */
