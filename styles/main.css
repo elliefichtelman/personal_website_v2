@@ -1,3 +1,40 @@
 /* GLOBAL STYLES */
+html {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
 /* CONSOLIDATED STYLES */
+
 /* TYPOGRAPHY */
+
+/* HEADER STYLES */
+.header {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-links li {
+  margin-right: 1rem;
+}
