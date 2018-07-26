@@ -49,3 +49,14 @@ li {
 }
 
 /* SEE MY WORK STYLES */
+.see-my-work p {
+  text-align: center;
+}
+.work-samples {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.work-samples article {
+  text-align: center;
+}
