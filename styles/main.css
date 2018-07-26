@@ -60,3 +60,11 @@ li {
 .work-samples article {
   text-align: center;
 }
+
+/* ABOUT ME STYLES */
+.about-me {
+  padding: 0 40%;
+  text-align: center;
+}
+
+/* CONTACT STYLES */
