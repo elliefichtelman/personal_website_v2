@@ -2,6 +2,9 @@
 html {
   font-size: 16px;
 }
+body {
+  background-color: #f1f2ee;
+}
 a {
   text-decoration: none;
 }
@@ -16,9 +19,11 @@ li {
 /* HEADER STYLES */
 .header {
   align-items: flex-end;
+  background-color: #72a59d;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: .5rem 2rem;
 }
 .brand {
   display: flex;
@@ -44,6 +49,9 @@ li {
 }
 
 /* HOME STYLES */
+.home {
+  padding: 2rem;
+}
 .intro {
   padding: 0 40%;
   text-align: center;
@@ -53,6 +61,9 @@ li {
 }
 
 /* SEE MY WORK STYLES */
+.see-my-work {
+  padding: 2rem;
+}
 .see-my-work p {
   text-align: center;
 }
@@ -79,3 +90,7 @@ li {
 }
 
 /* CONTACT STYLES */
+.contact {
+  padding: 2rem;
+  text-align: center;
+}
