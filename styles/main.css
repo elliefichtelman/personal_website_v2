@@ -38,6 +38,10 @@ li {
 .nav-links li {
   margin-right: 1rem;
 }
+.brand img {
+  height: 5rem;
+  width: 5rem;
+}
 
 /* HOME STYLES */
 .intro {
@@ -52,6 +56,9 @@ li {
 .see-my-work p {
   text-align: center;
 }
+.work-sample-image {
+  width: 10rem;
+}
 .work-samples {
   display: flex;
   flex-direction: row;
@@ -65,6 +72,10 @@ li {
 .about-me {
   padding: 0 40%;
   text-align: center;
+}
+.about-me img {
+  border-radius: 50%;
+  width: 15rem;
 }
 
 /* CONTACT STYLES */
