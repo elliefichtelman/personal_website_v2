@@ -8,6 +8,9 @@ body {
   font-family: "Raleway";
   line-height: 1.25;
 }
+.page-sections {
+  padding: 0 4rem;
+}
 h1 {
   font-size: 1.25rem;
 }
@@ -94,7 +97,7 @@ q::after {
   padding: 2rem;
 }
 .intro {
-  padding: 0 40%;
+  padding: 0 35%;
   text-align: center;
 }
 .intro p {
@@ -135,7 +138,7 @@ q::after {
 
 /* ABOUT ME STYLES */
 .about-me {
-  padding: 0 40%;
+  padding: 0 35%;
   text-align: center;
 }
 .about-me img {
