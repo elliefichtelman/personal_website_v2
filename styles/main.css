@@ -63,6 +63,13 @@ q::after {
 .brand-copy h1 {
   text-transform: uppercase;
 }
+.brand-copy h2 {
+  font-family: "Raleway";
+  font-weight: normal;
+}
+.brand-copy h1, .brand-copy h2 {
+  margin-left: 1rem;
+}
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -90,8 +97,18 @@ q::after {
   padding: 0 40%;
   text-align: center;
 }
+.intro p {
+  margin-top: 1rem;
+}
+.testimonials {
+  margin-top: 2rem;
+}
 .testimonials h1 {
+  margin-bottom: 1rem;
   text-align: center;
+}
+.testimonials h2 {
+  margin-bottom: .5rem;
 }
 
 /* SEE MY WORK STYLES */
@@ -112,6 +129,9 @@ q::after {
 .work-samples article {
   text-align: center;
 }
+.work-samples img {
+  margin: 1rem 0;
+}
 
 /* ABOUT ME STYLES */
 .about-me {
@@ -119,7 +139,9 @@ q::after {
   text-align: center;
 }
 .about-me img {
+  border: solid #cfd1ca .25rem;
   border-radius: 50%;
+  margin-bottom: 1rem;
   width: 15rem;
 }
 
