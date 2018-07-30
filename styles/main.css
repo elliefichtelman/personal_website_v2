@@ -1,12 +1,22 @@
 /* GLOBAL STYLES */
 html {
+  box-sizing: border-box;
   font-size: 18px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 body {
   background-color: #f1f2ee;
   color: #435058;
   font-family: "Raleway";
   line-height: 1.25;
+}
+::-webkit-input-placeholder {
+  font-family: "Raleway";
+}
+::-moz-placeholder {
+  font-family: "Raleway";
 }
 .page-sections {
   padding: 0 4rem;
@@ -36,6 +46,10 @@ q::before {
 }
 q::after {
   content: '"';
+}
+input, textarea, button {
+  font-family: "Raleway";
+  font-size: .75rem;
 }
 
 /* CONSOLIDATED STYLES */
@@ -158,8 +172,20 @@ q::after {
   padding: 0 35%;
 }
 .form button {
+  background-color: #72a59d;
+  border: 1px solid #517f78;
   padding: .5rem 1rem;
 }
 .form input, .form textarea {
+  border: 1px solid #72a59d;
   width: 100%;
+}
+.form input {
+  padding: .25rem;
+}
+.form textarea {
+  padding: .25rem;
+}
+.form input, .form textarea, .form button {
+  margin-top: .5rem;
 }
