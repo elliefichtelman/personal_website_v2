@@ -141,9 +141,6 @@ input, textarea, button {
 .see-my-work p {
   text-align: center;
 }
-.work-sample-image {
-  width: 10rem;
-}
 .work-samples {
   display: flex;
   flex-direction: row;
