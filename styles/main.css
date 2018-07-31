@@ -21,7 +21,7 @@ body {
 .page-sections {
   margin: 0 auto;
   max-width: 1400px;
-  padding: 0 4rem;
+  padding: 5rem 4rem 0 4rem;
 }
 h1 {
   font-size: 1.25rem;
@@ -61,6 +61,8 @@ input, textarea, button {
 /* HEADER STYLES */
 .header {
   background-color: #72a59d;
+  position: fixed;
+  width: 100%;
 }
 .header-content {
   align-items: flex-end;
