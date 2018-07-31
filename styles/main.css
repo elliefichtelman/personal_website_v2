@@ -19,6 +19,8 @@ body {
   font-family: "Raleway";
 }
 .page-sections {
+  margin: 0 auto;
+  max-width: 1400px;
   padding: 0 4rem;
 }
 h1 {
@@ -58,13 +60,17 @@ input, textarea, button {
 
 /* HEADER STYLES */
 .header {
-  align-items: flex-end;
   background-color: #72a59d;
+}
+.header-content {
+  align-items: flex-end;
   color: #f1f2ee;
   display: flex;
   flex-direction: row;
   font-size: 1rem;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1400px;
   padding: .5rem 2rem;
 }
 .brand {
