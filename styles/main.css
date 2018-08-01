@@ -206,7 +206,47 @@ input, textarea, button {
 }
 
 /* RESPONSIVE DESIGN STYLES */
-@media (max-width: 800px) {
+/* PHONE STYLES*/
+@media (max-width: 600px) {
+  /* GLOBAL STYLES */
+  html {
+    font-size: 14px;
+  }
+  /* HEADER STYLES */
+  .header-content {
+    display: block;
+  }
+  .brand {
+    display: block;
+    text-align: center;
+  }
+  .brand-copy h1, .brand-copy h2 {
+    margin-left: 0;
+  }
+  .nav-links {
+    margin-top: 1rem;
+  }
+  .header nav {
+    border-top: 1px solid #f1f2ee;
+    margin-top: 1rem;
+  }
+  /* HOME STYLES */
+  .home {
+    padding: 2rem 2rem 0 2rem;
+  }
+  .page-sections {
+    padding: 11rem .5rem 0 .5rem;
+  }
+  .testimonials article {
+    text-align: center;
+  }
+  /* SEE MY WORK STYLES */
+  .see-my-work {
+    padding: 2rem 0;
+  }
+}
+/* TABLET PORTRAIT STYLES*/
+@media (max-width: 900px) {
   /* HOME STYLES */
   .intro {
     padding: 0;
@@ -224,3 +264,7 @@ input, textarea, button {
     padding: 0;
   }
 }
+/* TABLET LANDSCAPE STYLES*/
+@media (max-width: 1200px) {}
+/* BIG DESKTOP STYLES*/
+@media (min-width: 1800px) {}
