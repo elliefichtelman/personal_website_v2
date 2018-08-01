@@ -141,7 +141,7 @@ input, textarea, button {
   padding: 2rem;
 }
 .see-my-work h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
   text-align: center;
 }
 .see-my-work p {
@@ -161,11 +161,11 @@ input, textarea, button {
 
 /* ABOUT ME STYLES */
 .about-me {
-  padding: 0 35%;
+  padding: 2rem 35%;
   text-align: center;
 }
 .about-me h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
 }
 .about-me img {
   border: solid #cfd1ca .25rem;
@@ -180,7 +180,7 @@ input, textarea, button {
   text-align: center;
 }
 .contact h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
 }
 .form {
   text-align: right;
