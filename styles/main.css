@@ -204,3 +204,23 @@ input, textarea, button {
 .form input, .form textarea, .form button {
   margin-top: .5rem;
 }
+
+/* RESPONSIVE DESIGN STYLES */
+@media (max-width: 800px) {
+  /* HOME STYLES */
+  .intro {
+    padding: 0;
+  }
+  /* SEE MY WORK STYLES */
+  .work-samples {
+    flex-direction: column;
+  }
+  /* ABOUT ME STYLES */
+  .about-me {
+    padding: 0;
+  }
+  /* CONTACT STYLES */
+  .form {
+    padding: 0;
+  }
+}

@@ -1,4 +1,3 @@
-// VERSION 4
 var links = document.querySelectorAll("[data-behavior=smooth-scroll]");
 links.forEach(function(link, index) {
   link.onclick = function() {
