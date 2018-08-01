@@ -1,8 +1,8 @@
 // VERSION 4
-var navLinks = document.querySelectorAll(".nav-links a");
-navLinks.forEach(function(navLink, index) {
-  navLink.onclick = function() {
-    var href = navLink.getAttribute("href");
+var links = document.querySelectorAll("[data-behavior=smooth-scroll]");
+links.forEach(function(link, index) {
+  link.onclick = function() {
+    var href = link.getAttribute("href");
     var section = document.querySelector(href);
     var header = document.querySelector(".header");
     var scrollHeight = section.offsetTop - header.offsetHeight;
