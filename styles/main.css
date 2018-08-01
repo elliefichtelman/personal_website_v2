@@ -55,6 +55,10 @@ input, textarea, button {
 }
 
 /* CONSOLIDATED STYLES */
+.section-heading {
+  color: #a57d72;
+  font-size: 1.75rem;
+}
 
 /* TYPOGRAPHY */
 
@@ -140,6 +144,10 @@ input, textarea, button {
 .see-my-work {
   padding: 2rem;
 }
+.see-my-work h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
 .see-my-work p {
   text-align: center;
 }
@@ -160,6 +168,9 @@ input, textarea, button {
   padding: 0 35%;
   text-align: center;
 }
+.about-me h1 {
+  margin-bottom: 2rem;
+}
 .about-me img {
   border: solid #cfd1ca .25rem;
   border-radius: 50%;
@@ -171,6 +182,9 @@ input, textarea, button {
 .contact {
   padding: 2rem;
   text-align: center;
+}
+.contact h1 {
+  margin-bottom: 2rem;
 }
 .form {
   text-align: right;
