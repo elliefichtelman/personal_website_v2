@@ -7,16 +7,16 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: #f1f2ee;
-  color: #435058;
-  font-family: "Raleway";
+  background-color: #e9eef1;
+  color: #1b065e;
+  font-family: "Quattrocento";
   line-height: 1.25;
 }
 ::-webkit-input-placeholder {
-  font-family: "Raleway";
+  font-family: "Quattrocento";
 }
 ::-moz-placeholder {
-  font-family: "Raleway";
+  font-family: "Quattrocento";
 }
 .page-sections {
   margin: 0 auto;
@@ -30,11 +30,11 @@ h2 {
   font-size: 1rem;
 }
 h1, h2 {
-  font-family: "Quattrocento";
+  font-family: "Raleway";
   font-weight: bold;
 }
 a {
-  color: #72a59d;
+  color: #a4b07e;
   text-decoration: none;
 }
 a:hover {
@@ -50,7 +50,7 @@ q::after {
   content: '"';
 }
 input, textarea, button {
-  font-family: "Raleway";
+  font-family: "Quattrocento";
   font-size: .75rem;
 }
 .section-heading {
@@ -60,13 +60,13 @@ input, textarea, button {
 
 /* HEADER STYLES */
 .header {
-  background-color: #72a59d;
+  background-color: #a4b07e;
   position: fixed;
   width: 100%;
 }
 .header-content {
   align-items: flex-end;
-  color: #f1f2ee;
+  color: #92938d;
   display: flex;
   flex-direction: row;
   font-size: 1rem;
@@ -89,7 +89,7 @@ input, textarea, button {
   text-transform: uppercase;
 }
 .brand-copy h2 {
-  font-family: "Raleway";
+  font-family: "Quattrocento";
   font-weight: normal;
 }
 .brand-copy h1, .brand-copy h2 {
@@ -125,7 +125,25 @@ input, textarea, button {
 .intro p {
   margin-top: 1rem;
 }
-.testimonials {
+.services h1 {
+  text-align: center;
+}
+.service-list h2 {
+  margin: 1% 0;
+}
+.service-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.service-item {
+  padding-top: .5rem;
+}
+.service-column {
+  flex: 1;
+  padding: 2%;
+}
+.testimonials, .services {
   margin-top: 2rem;
 }
 .testimonials h1 {
@@ -187,12 +205,12 @@ input, textarea, button {
   padding: 0 35%;
 }
 .form button {
-  background-color: #72a59d;
+  background-color: #a4b07e;
   border: 1px solid #517f78;
   padding: .5rem 1rem;
 }
 .form input, .form textarea {
-  border: 1px solid #72a59d;
+  border: 1px solid #a4b07e;
   width: 100%;
 }
 .form input {
@@ -236,6 +254,10 @@ input, textarea, button {
   }
   .page-sections {
     padding: 11rem .5rem 0 .5rem;
+  }
+  .service-list {
+    flex-direction: column;
+    text-align: center;
   }
   .testimonials article {
     text-align: center;
