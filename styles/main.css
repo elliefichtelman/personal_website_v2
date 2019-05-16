@@ -7,9 +7,9 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: #e9eef1;
-  color: #1b065e;
-  font-family: "Quattrocento";
+  background-color: #f9fafd;
+  color: #3d4f21;
+  font-family: "Homemade Apple";
   line-height: 1.25;
 }
 ::-webkit-input-placeholder {
@@ -30,8 +30,8 @@ h2 {
   font-size: 1rem;
 }
 h1, h2 {
-  font-family: "Raleway";
-  font-weight: bold;
+  font-family: "Raleway-Light";
+  /*font-weight: bold;*/
 }
 a {
   color: #a4b07e;
