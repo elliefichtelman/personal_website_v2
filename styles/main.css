@@ -30,8 +30,8 @@ h2 {
   font-size: 1rem;
 }
 h1, h2 {
-  font-family: "Raleway-Light";
-  /*font-weight: bold;*/
+  font-family: "Raleway";
+  font-weight: 300;
 }
 a {
   color: #a4b07e;
